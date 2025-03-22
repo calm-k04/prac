@@ -1,0 +1,21 @@
+.Title {
+    text-align: center;
+}
+.container {
+    color: white;
+    border: solid 5px;
+    border-color: gold;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.container > * {
+    width: 10rem;
+}
+
+.shoe {background-color: red;}
+.clothes {background-color: blue;}
+.makeup {background-color: yellow;}
+.electronics {background-color: grey;}
+.cars {background-color: pink;}
+
